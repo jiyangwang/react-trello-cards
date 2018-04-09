@@ -1,0 +1,48 @@
+body {
+  background-color: #ECEEEE;
+}
+
+.col {
+  float: left;
+  width: calc((100% - 125px) / 4);
+  margin-left: 25px;
+  margin-top: 50px;
+}
+
+.col .title {
+  text-align: center;
+  line-height: 30px;
+  color: white;
+}
+
+.col .add {
+  margin-top: 2px;
+  color: gray;
+}
+
+.card {
+  position: relative;
+  margin: 10px 0;
+  background-color: white;
+}
+
+.card .left {
+  position: absolute;
+  left: 8px;
+  display: inline-block;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.card .content {
+  word-wrap: break-word;
+  padding: 14px 36px;
+}
+
+.card .right {
+  position: absolute;
+  right: 8px;
+  display: inline-block;
+  top: 50%;
+  transform: translateY(-50%);
+}
